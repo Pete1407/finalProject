@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PROJECT</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="email">Email</string>
+    <string name="faculty">Faculty</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="text1">Are you want to get information type?</string>
+    <string name="choice1">Low Price and Promotion</string>
+    <string name="choice2">Explicit Detail</string>
+    <string name="choice3">Reliable and Premium</string>
+    <string name="choice4">Brand Name</string>
+    <string name="role_student">Student</string>
+    <string name="role_dormowner">Dorm Owner</string>
+    <string name="login">sign in</string>
+    <string name="signup_Text">Are you have account?</string>
+    <string name="signup">Sign up</string>
+    <string name="dormOwner">Dorm owner section</string>
+
+    <string name="filter_title">Filter</string>
+    <string name="list_title">List</string>
+    <string name="map_title">Map</string>
+
+    <string name="Name_Dorm">Dorm name</string>
+    <string name="Name_Dorm_Owner">Firstname</string>
+    <string name="Lastname_Dorm_Owner">Lastname</string>
+    <string name="Contact_Dorm_Owner">Contact phone</string>
+    <string name="Email_Dorm_Owner">Email</string>
+    <string name="username_Dorm_Owner">Username</string>
+    <string name="password_Dorm_Owner">Password</string>
+
+    <string name="document_title">Document section</string>
+    <string name="upload_document">License for Conducting dormitory business</string>
+
+    <string name="cancel">cancel</string>
+    <string name="insert_dormLocation">fill in address of dorm</string>
+
+    <string name="detail">Detail</string>
+    <string name="info_detail"> - Low price and Promotion\n
+    Application will show dorm that low price or promotion to you\n
+    - Explicit Information\n
+    Application will show explicit information.\n
+    - Premium \n
+    Application will show information about premium service for customer.\n
+    - Brandname\n
+    Application will show famous dorm. \n
+    </string>
+
+    <string name="mainPage">Home</string>
+    <string name="favorite">Favorite</string>
+
+    <string name="navigation_close">Close Navigation</string>
+    <string name="navigation_open">Open Navigation</string>
+
+    <string name="title_icon">พักใกล้ TU</string>
+    <string name="search_title">Search</string>
+    <string name="question1">What are you want?</string>
+
+    <string name="filter">Filter</string>
+    <string name="list">List</string>
+    <string name="map_view">Map</string>
+
+    <string name="price_title">Price</string>
+    <string name="minnimum">Minimum</string>
+    <string name="distance">Distance</string>
+    <string name="travel">Traveling</string>
+    <string name="submit">confirm</string>
+
+
+    <string name="addDorm">Add dorm</string>
+    <string name="info_Dorm">Dorm info</string>
+    <string name="typeDorm">Type of dorm</string>
+    <string name="number">Number</string>
+    <string name="road">Road</string>
+    <string name="soi">Alley</string>
+    <string name="province">Province</string>
+    <string name="district">Amphur/District</string>
+    <string name="tumbon">Sub-district</string>
+    <string name="codePost">Post code</string>
+    <string name="identify_location">Identify dorm\'s location</string>
+    <string name="confirm_location">confirm dorm\'s location</string>
+
+    <string name="choose_province">choose</string>
+    <string name="choose_district">choose</string>
+    <string name="choose_tumbon">choose</string>
+    <string name="postCode">choose</string>
+    <string name="post">postcode</string>
+
+    <string name="facility_title">Facility</string>
+    <string name="faci_innernal">Facility in room</string>
+    <string name="faci_external">Facility in dorm</string>
+    <string name="confirm">confirm</string>
+
+
+    <string name="expenseTitle">Expense</string>
+    <string name="class_payment">Room price</string>
+    <string name="water_payment">Water price</string>
+    <string name="electro_payment">Electricity price</string>
+    <string name="deposit">Deposit</string>
+    <string name="middle_payment">Common fee</string>
+    <string name="promotion">Promotion</string>
+    <string name="description">Description</string>
+    <string name="unit">baht/month</string>
+
+    <string name="min">min</string>
+    <string name="max">max</string>
+    <string name="payment">Other expenses</string>
+    <string name="promotion_description">Detail of promotion</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="hintPromotion">detail promotion</string>
+    <string name="uploadImage">Upload image</string>
+
+    <string name="showimagetotal">Images</string>
+    <string name="addimage">Add images</string>
+    <string name="promotionSign">Promotion</string>
+    <string name="title_activity_maps__add_dorm">Map</string>
+
+    <string name="contact">Contact</string>
+    <string name="interest">interesting</string>
+    <string name="dormOwnerTitle">Dorm owner</string>
+    <string name="address_dorm">Address</string>
+    <string name="document">License for Conducting dormitory business</string>
+
+
+    <string name="important_place">Places in Thammasat university</string>
+    <string name="travelTitle">Traveling</string>
+    <string name="comment">Comment</string>
+    <string name="etc_photo">Images</string>
+    <string name="searchposition">search dorm\'s position</string>
+    <string name="waterElectroBill">Water and electricity price</string>
+    <string name="etcexpense">Other expenses</string>
+    <string name="near_place">Nearby place</string>
+
+    <string name="fromuser">from users</string>
+    <string name="cleanning">Cleanning</string>
+    <string name="servicing">Service</string>
+    <string name="decorating">Decorating</string>
+    <string name="security">Security</string>
+    <string name="scoreUnit">score</string>
+    <string name="scoreUser">Most users given score to this dorm</string>
+    <string name="inviteGiveScore">Are you want to comment?</string>
+    <string name="wanttotellthisdorm">comment to this dorm</string>
+    <string name="panorama">360 degree picture</string>
+
+    <string name="pressFavorite">like</string>
+
+    <string name="walking">Walking</string>
+    <string name="driving">Driving</string>
+    <string name="transit">Public transport</string>
+
+    <string name="documentDormOwner">License for Conducting dormitory business</string>
+    <string name="moreinfo">More information</string>
+    <string name="acceptedbyGov">This dorm is certified by government agency</string>
+    <string name="premium">Premium</string>
+    <string name="resultofSearch">Result for searching</string>
+
+    <string name="finddorm">search</string>
+    <string name="outputforfinding">Result for searching</string>
+    <string name="notfindresutl">Can\'t find what you want</string>
+    <string name="message">Can\'t find !!</string>
+    <string name="free">no extra charge</string>
+    <string name="baht">baht</string>
+    <string name="from">from</string>
+
+    <string name="sortby">sort by</string>
+    <string name="hint_search">search by name of dorm or 3000</string>
+    <string name="readnext">read more</string>
+    <string name="point">point</string>
+    <string name="nopoint">no point</string>
+    <string name="sign_mapsearch">Dormitory</string>
+    <string name="nearbyplace">Places in university</string>
+    <string name="selectdorm">select dorm</string>
+    <string name="seeposition">check location</string>
+    <string name="traveltitle">Travel by</string>
+    <string name="notifyDorm">Please select dorm</string>
+    <string name="notifytravel">Please select travel</string>
+    <string name="messageNotifyTravel">You must choose travel.</string>
+    <string name="messageNotifyDorm">You must choose dorm.</string>
+    <string name="image360">360 Image</string>
+    <string name="tagsale">Promotion</string>
+    <string name="updatenotify">update finished</string>
+    <string name="was">was</string>
+    <string name="now">now</string>
+    <string name="verifybygov">Certified by government agency</string>
+    <string name="confirmGallery">confirm to edit</string>
+    <string name="notfoundresult">Not found information</string>
+    <string name="notfound">Please search again.</string>
+
+    <string name="updateing">Updating</string>
+    <string name="messageUpdate">Please wait while update.</string>
+
+    <string name="moi">Moo</string>
+    <string name="backtomainpage">back to main page</string>
+
+    <string name="wanttosearch">What are you want to search?</string>
+
+    <string name="gomainpage">Go to main page</string>
+
+    <string name="notification_input_search_title">Choose search type</string>
+    <string name="notification_input_search_message">Please choose search type to search.</string>
+
+    <string name="noinput_title">Please select searching</string>
+    <string name="noinput_message">You don\'t select searching.</string>
+
+    <string name="inputtext_title">Please fill text to search</string>
+    <string name="inputtext_message">You don\'t fill text, fill text to search, please.</string>
+
+    <string name="backtosearchpage">back to search</string>
+    <string name="student_represent">นักศึกษา (Student)</string>
+
+    <string name="firstname_represent">ชื่อ (Firstname)</string>
+    <string name="lastname_represent">นามสกุล (Lastname)</string>
+    <string name="email_represent">อีเมล (Email)</string>
+    <string name="faculty_represent">คณะที่ศึกษา (Faculty)</string>
+    <string name="username_represent">ชื่อผู้ใช้ (Username)</string>
+    <string name="password_represent">รหัสผ่าน (Password)</string>
+
+    <string name="link_google_street_view"><a href="https://play.google.com/store/apps/details?id=com.google.android.street"></a></string>
+
+    <string name="updatestyle_dorm">choose dorm style</string>
+
+</resources>

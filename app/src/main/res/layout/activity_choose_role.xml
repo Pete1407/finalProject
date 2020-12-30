@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ChooseRole">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="236dp"
+            android:layout_height="236dp"
+            android:src="@drawable/student"
+            app:civ_border_color="#EEEEEE"
+            android:onClick="chooseRoleStudent"
+            app:civ_border_width="4dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opunregular"
+            android:text="@string/student_represent"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="236dp"
+            android:layout_height="236dp"
+            android:onClick="chooseRoleDormOwner"
+            android:src="@drawable/dormowner"
+            app:civ_border_color="#EEEEEE"
+            app:civ_border_width="4dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/role_dormowner"
+            android:textSize="15sp"
+            android:fontFamily="@font/opunregular"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/PriceTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/price_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/price_title"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="@font/opunregular"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/InputPriceUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/minnimum" />
+
+                <EditText
+                    android:id="@+id/min"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="4"
+                    android:gravity="center"
+                    android:inputType="number" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="-" />
+
+                <EditText
+                    android:id="@+id/max"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="4"
+                    android:gravity="center"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/DistanceTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/price_background"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/distance"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="@font/opunregular"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <com.github.paolorotolo.expandableheightlistview.ExpandableHeightListView
+                    android:id="@+id/listview1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white">
+
+                </com.github.paolorotolo.expandableheightlistview.ExpandableHeightListView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/FacilityTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/price_background"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/facility_title"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="@font/opunregular"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center|right"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/arrow"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        app:srcCompat="@drawable/rightarrow" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/facility"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="vertical">
+
+                <com.github.paolorotolo.expandableheightlistview.ExpandableHeightListView
+                    android:id="@+id/listview2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white" />
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_senddata"
+        android:text="@string/search_title"
+        android:fontFamily="@font/opunregular"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

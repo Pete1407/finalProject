@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="8dp"
+    android:foreground="?android:selectableItemBackground"
+    cardview:cardElevation="2dp"
+    cardview:contentPadding="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fitsSystemWindows="false">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="5dp"
+                android:scaleType="centerCrop"
+                cardview:srcCompat="@drawable/sunta" />
+
+            <TextView
+                android:id="@+id/tagsale"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="10dp"
+                android:background="@drawable/tagsale"
+                android:fontFamily="@font/opunregular"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="@string/tagsale"
+                android:textColor="@android:color/white"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/dormname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="TextView"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    cardview:srcCompat="@drawable/pin_promotion" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/subtitile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="TextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/price_promotion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|right"
+            android:orientation="vertical"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/prodetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:paddingRight="20dp"
+                android:text="TextView"
+                android:textColor="@color/yellow_shade"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/oldprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:paddingRight="20dp"
+                android:text="TextView"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+

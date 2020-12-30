@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="รูปสาธิต"
+          android:id="@+id/emulator"
+          android:icon="@drawable/research"
+          app:showAsAction="always"/>
+</menu>

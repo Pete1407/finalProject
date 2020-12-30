@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="รายละเอียด"
+            android:textSize="15sp"
+            android:fontFamily="@font/opunregular"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/example"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            android:text="ข้อความต้องมีเครื่องหมายจุลภาคคั่น( , ) \nตัวอย่างการเขียน เช่น ห้องสมุด,ห้องออกกำลังกาย" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="239dp"
+        android:layout_margin="15dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/multitext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:background="#EEE3E3"
+            android:hint="เขียนรายละเอียดที่นี่"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="confirmInfo"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:fontFamily="@font/opunregular"
+        android:textStyle="bold"
+        android:background="@drawable/button_green_corner"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="ยืนยัน" />
+
+</LinearLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="faculty">
+        <item>เลือกคณะที่ศึกษา</item>
+        <item>คณะวิทยาศาสตร์และเทคโนโลยี</item>
+        <item>คณะนิติศาสตร์</item>
+        <item>คณะรัฐศาสตร์</item>
+        <item>คณะพาณิชยศาสตร์และการบัญชี</item>
+        <item>คณะศิลปศาสตร์</item>
+        <item>คณะสถาปัตยกรรมศาสตร์และการผังเมือง</item>
+        <item>คณะเศรษฐศาสตร์</item>
+        <item>คณะสังคมสงเคราะห์ศาสตร์</item>
+        <item>คณะวารสารศาสตร์และสื่อสารมวลชน</item>
+        <item>คณะสังคมวิทยาและมานุษยวิทยา</item>
+        <item>คณะวิศวกรรมศาสตร์</item>
+        <item>คณะแพทยศาสตร์</item>
+        <item>คณะสหเวชศาสตร์</item>
+        <item>คณะทันตแพทยศาสตร์</item>
+        <item>คณะพยาบาลศาสตร์</item>
+        <item>คณะศิลปกรรมศาสตร์</item>
+        <item>คณะสาธารณสุขศาสตร์</item>
+        <item>คณะเภสัชศาสตร์</item>
+        <item>คณะวิทยาการเรียนรู้และศึกษาศาสตร์</item>
+        <item>สถาบันเทคโนโลยีนานาชาติสิรินธร</item>
+        <item>วิทยาลัยพัฒนศาสตร์ ป๋วยอึ้งภากรณ์</item>
+    </string-array>
+
+    <string-array name="science_place">
+        <item>อาคารบรรยายรวม 1(LC 1)</item>
+        <item>อาคารบรรยายรวม 2(LC 2)</item>
+        <item>อาคารบรรยายรวม 3(LC 3)</item>
+        <item>อาคารบรรยายรวม 4(LC 4)</item>
+        <item>อาคารบรรยายรวม 5(LC 5)</item>
+        <item>หอสมุดป๋วย อึ้งภากรณ์(หอป๋วย)</item>
+        <item>อาคารศูนย์การเรียนรู้(ศกร.)</item>
+        <item>ท่ารถตู้</item>
+    </string-array>
+
+    <string-array name="social_place">
+        <item>อาคารเรียนรวมสังคมศาสตร์(SC)</item>
+        <item>หอสมุดป๋วย อึ้งภากรณ์(หอป๋วย)</item>
+        <item>อาคารศูนย์การเรียนรู้(ศกร.)</item>
+        <item>ท่ารถตู้</item>
+    </string-array>
+
+    <string-array name="distance_title">
+        <item>น้อยกว่า 1 กิโลเมตร</item>
+        <item>น้อยกว่า 3 กิโลเมตร</item>
+        <item>น้อยกว่า 5 กิโลเมตร</item>
+        <item>น้อยกว่า 7 กิโลเมตร</item>
+    </string-array>
+
+    <string-array name="distance_titleEN">
+        <item>less than 1 km</item>
+        <item>less than 3 km</item>
+        <item>less than 5 km</item>
+        <item>less than 7 km</item>
+    </string-array>
+
+    <string-array name="traveling">
+        <item>มอเตอร์ไซต์รับจ้าง</item>
+        <item>รถตู้หอพัก</item>
+        <item>รถสองแถว</item>
+    </string-array>
+
+    <string-array name="dormtype">
+        <item>ราคาถูกหรือมีโปรโมชั่น</item>
+        <item>แสดงข้อมูลละเอียด</item>
+        <item>น่าเชื่อถือและมีคุณภาพ</item>
+        <item>มีชื่อเสียง</item>
+    </string-array>
+
+    <string-array name="depositChoice">
+        <item>ไม่มีค่ามัดจำ</item>
+        <item>มีค่ามัดจำ</item>
+    </string-array>
+
+    <string-array name="middle_Choice">
+        <item>ไม่มีค่าส่วนกลาง</item>
+        <item>มีค่าส่วนกลาง</item>
+    </string-array>
+
+    <string-array name="promotion_choice">
+        <item>ไม่มีโปรโมชั่น</item>
+        <item>มีโปรโมชั่น</item>
+    </string-array>
+
+    <string-array name="dummy">
+        <item>ราคาถูกหรือมีโปรโมชั่น</item>
+        <item>น่าเชื่อถือและมีคุณภาพ</item>
+        <item>มีชื่อเสียง</item>
+    </string-array>
+
+    <string-array name="waterBill">
+        <item>เลือกรูปแบบการจ่ายค่าน้ำ</item>
+        <item>ตามยูนิตที่ใช้</item>
+        <item>เหมาจ่าย</item>
+
+    </string-array>
+
+    <string-array name="electroBill">
+        <item>เลือกกรูปแบบการจ่ายค่าไฟ</item>
+        <item>ตามยูนิตที่ใช้</item>
+        <item>รวมในค่าห้องแล้ว</item>
+    </string-array>
+
+    <string-array name="sort">
+        <item>ราคาต่ำไปสูง</item>
+        <item>ราคาสูงไปต่ำ</item>
+        <item>ระยะทางใกล้ไปไกล</item>
+        <item>ระยะทางไกลไปใกล้</item>
+    </string-array>
+
+    <string-array name="sortEN">
+        <item>low price to high price</item>
+        <item>high price to low price</item>
+        <item>close to distant</item>
+        <item>distant to close</item>
+    </string-array>
+
+    <string-array name="choicePrototype">
+        <item>แสดงผลเบื้องต้น</item>
+        <item>แสดงรายละเอียด</item>
+    </string-array>
+
+    <string-array name="searchchoiceTH">
+        <item>เลือกรูปแบบการค้นหา</item>
+        <item>ชื่อหอพัก</item>
+        <item>ราคา</item>
+        <item>ระยะทาง</item>
+    </string-array>
+
+    <string-array name="searchchoiceEN">
+        <item>choose searh type</item>
+        <item>Dorm name</item>
+        <item>Room Price</item>
+        <item>Distance</item>
+    </string-array>
+
+</resources>

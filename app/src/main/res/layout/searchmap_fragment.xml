@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/border_searchdorm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DC143C"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="@string/sign_mapsearch"
+                    android:fontFamily="@font/opunregular"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_choose_dorm_corner"
+                    android:elevation="10dp"
+                    android:text="@string/selectdorm"
+                    android:fontFamily="@font/opunregular"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:orientation="vertical">
+
+                <fragment
+                    android:id="@+id/searchbyMap"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#F2F2F2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="13dp"
+                        android:layout_weight="1"
+                        android:text="@string/nearbyplace"
+                        android:fontFamily="@font/opunregular"
+                        android:textSize="15sp"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/findPosition"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_choose_dorm_corner"
+                        android:text="@string/seeposition"
+                        android:fontFamily="@font/opunregular"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ExpandableListView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.github.paolorotolo.expandableheightlistview.ExpandableHeightListView
+                        android:id="@+id/expand_nearPlace"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:divider="@null">
+                    </com.github.paolorotolo.expandableheightlistview.ExpandableHeightListView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:background="#F2F2F2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="@string/traveltitle"
+                        android:fontFamily="@font/opunregular"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/partoftravel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/PartDriving"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="71dp"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/driving"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_weight="1"
+                                android:padding="5dp"
+                                app:srcCompat="@drawable/car_2" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textDriving"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/opunregular"
+                            android:paddingBottom="5dp"
+                            android:text="@string/driving"
+                            android:textColor="@android:color/black"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/PartTransit"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="71dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/transit"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_weight="1"
+                                android:padding="10dp"
+
+                                app:srcCompat="@drawable/bus_2" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textTransit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/opunregular"
+                            android:paddingBottom="5dp"
+                            android:text="@string/transit"
+                            android:textColor="@android:color/black"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/searchview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_senddata"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/opunregular"
+                    android:text="ค้นหา" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

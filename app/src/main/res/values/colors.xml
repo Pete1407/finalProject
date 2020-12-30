@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="actionBarColor">#E74242</color>
+    <color name="fontTitle">#FFFFFF</color>
+    <color name="background">#DC143C</color>
+    <color name="white_Background">#FFFFFF</color>
+
+    <color name="price_background">#F2F2F2</color>
+    <color name="multipletext">#F8F8FF</color>
+    <color name="divider">#CABDBD</color>
+    <color name="expense_input">#F1E6E6</color>
+
+    <color name="colortext">#1F28FF</color>
+
+    <color name="background_update">#FAF4F4</color>
+    <color name="colorCardview">#EC5E5E</color>
+    <color name="back">#E5D7D7</color>
+    <color name="yellow">#FFF500</color>
+    <color name="yellow_shade">#E8D52F</color>
+    <color name="picture_text">#E21D1D</color>
+    <color name="gray">#8DAEC6</color>
+    <color name="red">#FF0000</color>
+    <color name="blackShade">#605050</color>
+    <color name="greyShade">#D5F4F4</color>
+    <color name="black">#000000</color>
+    <color name="green">#00FD47</color>
+    <color name="pigblood">#9E1E1E</color>
+    <color name="gray_shade">#E9DFDF</color>
+    <color name="navy">#092D46</color>
+    <color name="green_button">#16C752</color>
+    <color name="blue">#2196F3</color>
+    <color name="colorPrice">#16C752</color>
+</resources>

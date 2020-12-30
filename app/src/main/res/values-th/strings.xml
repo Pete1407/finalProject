@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PROJECT</string>
+    <string name="firstname">ชื่อ</string>
+    <string name="lastname">นามสกุล</string>
+    <string name="email">อีเมล</string>
+    <string name="faculty">คณะที่ศึกษา</string>
+    <string name="username">ชื่อผู้ใช้</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="text1">คุณต้องการได้รับข้อมูลแบบไหน</string>
+    <string name="choice1">ราคาถูกหรือมีโปรโมชัน (Price and Promotion)</string>
+    <string name="choice2">แสดงข้อมูลเชิงลึก (Information)</string>
+    <string name="choice3">มีคุณภาพและสิทธิพิเศษ (Premium)</string>
+    <string name="choice4">มีชื่อเสียง (Brandname)</string>
+    <string name="role_student">นักศึกษา</string>
+    <string name="role_dormowner">เจ้าของหอพัก</string>
+    <string name="login">เข้าสู่ระบบ</string>
+    <string name="signup_Text">คุณยังไม่มีบัญชีใช่หรือไม่?</string>
+    <string name="signup">สมัครสมาชิก</string>
+    <string name="dormOwner">ส่วนเจ้าของหอพัก</string>
+
+    <string name="filter_title">ค้นหาละเอียด</string>
+    <string name="list_title">รายการ</string>
+    <string name="map_title">แผนที่</string>
+
+    <string name="Name_Dorm">ชื่อหอพัก</string>
+    <string name="Name_Dorm_Owner">ชื่อเจ้าของหอพัก</string>
+    <string name="Lastname_Dorm_Owner">นามสกุลเจ้าของหอพัก</string>
+    <string name="Contact_Dorm_Owner">เบอร์ติดต่อเจ้าของหอพัก</string>
+    <string name="Email_Dorm_Owner">อีเมลเจ้าของหอพัก</string>
+    <string name="username_Dorm_Owner">ชื่อผู้ใช้ในระบบ</string>
+    <string name="password_Dorm_Owner">รหัสผ่านใช้ในระบบ</string>
+
+    <string name="document_title">ส่วนเอกสาร</string>
+    <string name="upload_document">อัปโหลดใบประกอบกิจการหอพัก</string>
+
+    <string name="cancel">ยกเลิก</string>
+    <string name="insert_dormLocation">กรอกที่อยู่หอพัก</string>
+
+    <string name="detail">รายละเอียด</string>
+    <string name="info_detail">- ราคาถูกหรือมีโปรโมชัน\n
+                               ระบบแสดงหอพักราคาถูกและมีโปรโมชัน\n
+                                - แสดงข้อมูลเชิงลึก\n
+                                ระบบแสดงข้อมูลเชิงลึกของหอพัก\n
+                                - หอพักที่มีคุณภาพและมีบริการพิเศษ\n
+                                ระบบแสดงข้อมูลหอพักและสิทธิพิเศษที่ผู้พักสามารถใช้ได้\n
+                                - มีชื่อเสียงและแบรนด์ที่ผู้คนรู้จัก\n
+                                ระบบแสดงข้อมูลหอพักที่มีชื่อเสียง\n
+    </string>
+
+    <string name="mainPage">หน้าหลัก</string>
+    <string name="favorite">หอพักที่ชื่นชอบ</string>
+
+    <string name="navigation_close">Close Navigation</string>
+    <string name="navigation_open">Open Navigation</string>
+
+    <string name="title_icon">พักใกล้ TU</string>
+    <string name="search_title">ค้นหา</string>
+    <string name="question1">คุณต้องการค้นหาอะไร</string>
+
+    <string name="filter">เกณฑ์การค้นหา</string>
+    <string name="list">รายการ</string>
+    <string name="map_view">แผนที่</string>
+
+    <string name="price_title">ราคา</string>
+    <string name="minnimum">น้อยสุด</string>
+    <string name="distance">ระยะทาง</string>
+    <string name="travel">การเดินทาง</string>
+    <string name="submit">ตกลง</string>
+
+
+    <string name="addDorm">เพิ่มข้อมูลหอพัก</string>
+    <string name="info_Dorm">ข้อมูลหอพัก</string>
+    <string name="typeDorm">ประเภทหอพัก</string>
+    <string name="number">เลขที่</string>
+    <string name="road">ถนน</string>
+    <string name="soi">ซอย</string>
+    <string name="province">จังหวัด</string>
+    <string name="district">อำเภอ/เขต</string>
+    <string name="tumbon">ตำบล</string>
+    <string name="codePost">รหัสไปรษณีย์</string>
+    <string name="identify_location">ระบุตำแหน่งหอพัก</string>
+    <string name="confirm_location">ยืนยันตำแหน่งหอพัก</string>
+
+    <string name="choose_province">เลือกจังหวัด</string>
+    <string name="choose_district">เลือกเขต</string>
+    <string name="choose_tumbon">เลือกตำบล</string>
+    <string name="postCode">เลือกรหัสไปรษณีย์</string>
+    <string name="post">รหัสไปรษณีย์</string>
+
+    <string name="facility_title">สิ่งอำนวยความสะดวก</string>
+    <string name="faci_innernal">สิ่งอำนวยความสะดวกในห้องพัก</string>
+    <string name="faci_external">สิ่งอำนวยความสะดวกในหอพัก</string>
+    <string name="confirm">ยืนยัน</string>
+
+    <string name="expenseTitle">ค่าใช้จ่าย</string>
+    <string name="class_payment">ค่าห้อง</string>
+    <string name="water_payment">ค่าน้ำ</string>
+    <string name="electro_payment">ค่าไฟ</string>
+    <string name="deposit">ค่ามัดจำ</string>
+    <string name="middle_payment">ค่าส่วนกลาง</string>
+    <string name="promotion">โปรโมชั่น</string>
+    <string name="description">คำบรรยาย</string>
+    <string name="unit">บาท/เดือน</string>
+
+    <string name="min">น้อยสุด</string>
+    <string name="max">มากสุด</string>
+    <string name="payment">ค่าใช้จ่ายอื่นๆ</string>
+    <string name="promotion_description">คำบรรยายโปรโมชั่น</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="hintPromotion">เขียนรายละเอียดโปรโมชั่นที่นี่</string>
+    <string name="uploadImage">อัปโหลดรูปภาพ</string>
+
+    <string name="showimagetotal">ดูรูปภาพทั้งหมด</string>
+    <string name="addimage">เพิ่มรูปภาพเพิ่มเติม</string>
+    <string name="promotionSign">มีโปรโมชั่น</string>
+    <string name="title_activity_maps__add_dorm">Map</string>
+
+    <string name="contact">การติดต่อ</string>
+    <string name="interest">สนใจ</string>
+    <string name="dormOwnerTitle">เจ้าของหอพัก</string>
+    <string name="address_dorm">ที่อยู่หอพัก</string>
+    <string name="document">เอกสารประกอบกิจการ</string>
+
+
+    <string name="important_place">สถานที่สำคัญในมหาวิทยาลัย</string>
+    <string name="travelTitle">การเดินทาง</string>
+    <string name="comment">ความคิดเห็นจากผู้ใช้</string>
+    <string name="etc_photo">รูปภาพเพิ่มเติม</string>
+    <string name="searchposition">หาตำแหน่งหอพัก</string>
+    <string name="waterElectroBill">ค่าน้ำและค่าไฟ</string>
+    <string name="etcexpense">ค่าใช้จ่ายอื่นๆ</string>
+    <string name="near_place">สถานที่ใกล้เคียง</string>
+
+    <string name="fromuser">จากผู้ใช้</string>
+    <string name="cleanning">ความสะอาด</string>
+    <string name="servicing">การบริการ</string>
+    <string name="decorating">การตกแต่ง</string>
+    <string name="security">ความปลอดภัย</string>
+    <string name="scoreUnit">คะแนน</string>
+    <string name="scoreUser">คะแนนส่วนใหญ่ที่ให้หอพักนี้</string>
+    <string name="inviteGiveScore">คุณอยากแสดงความคิดเห็นมั้ย ???</string>
+    <string name="wanttotellthisdorm">เขียนสิ่งที่คุณต้องการจะบอกกับหอพักนี้</string>
+    <string name="panorama">รูปภาพ360</string>
+
+    <string name="pressFavorite">คนที่ถูกใจ</string>
+
+    <string name="walking">เดิน</string>
+    <string name="driving">รถยนต์</string>
+    <string name="transit">รถโดยสาร</string>
+
+    <string name="documentDormOwner">เอกสารประกอบกิจการ</string>
+    <string name="moreinfo">ข้อมูลเพิ่มเติม</string>
+    <string name="acceptedbyGov">ได้รับการรับรองจากหน่วยงานรัฐอย่างถูกกฎหมาย</string>
+    <string name="premium">สิทธิพิเศษ</string>
+    <string name="resultofSearch">ผลลัพธ์การค้นหา</string>
+
+    <string name="finddorm">ค้นหาหอพัก</string>
+    <string name="outputforfinding">ผลลัพธ์การค้นหา</string>
+    <string name="notfindresutl">ไม่พบข้อมูล</string>
+    <string name="message">ไม่พบข้อมูลที่คุณค้นหา</string>
+    <string name="free">ไม่มีค่าใช้จ่าย</string>
+    <string name="baht">บาท</string>
+    <string name="from">จาก</string>
+
+    <string name="sortby">เรียงโดย</string>
+    <string name="hint_search">ใส่ชื่อหอพัก หรือ 3000</string>
+    <string name="readnext">อ่านต่อ</string>
+    <string name="point">คะแนน</string>
+    <string name="nopoint">ไม่มีคะแนน</string>
+    <string name="sign_mapsearch">หอพักที่ต้องการค้นหา</string>
+    <string name="nearbyplace">สถานที่ในมหาวิทยาลัย</string>
+    <string name="selectdorm">เลือกหอพักที่นี่</string>
+    <string name="seeposition">ดูตำแหน่ง</string>
+    <string name="traveltitle">เดินทางโดย</string>
+    <string name="notifyDorm">โปรดเลือกชื่อหอพัก</string>
+    <string name="notifytravel">โปรดเลือกการเดินทาง</string>
+    <string name="messageNotifyTravel">คุณยังไม่ได้เลือกการเดินทาง</string>
+    <string name="messageNotifyDorm">คุณยังไม่ได้เลือกหอพัก</string>
+
+    <string name="image360">รูป360องศา</string>
+    <string name="tagsale">ลดราคา</string>
+    <string name="updatenotify">อัพเดตสำเร็จ</string>
+    <string name="was">เดิม</string>
+    <string name="now">ตอนนี้</string>
+    <string name="verifybygov">ได้รับการรับรองจากหน่วยงานรัฐ</string>
+    <string name="confirmGallery">ยืนยันรูปภาพ</string>
+    <string name="notfoundresult">ไม่พบการค้นหา</string>
+    <string name="notfound">กรุณาค้นหาใหม่</string>
+    <string name="updateing">กำลังทำการแก้ไข</string>
+    <string name="messageUpdate">โปรดรอสักครู่ในขณะที่กำลังทำการอัปเดต</string>
+
+    <string name="moi">หมู่</string>
+    <string name="backtomainpage">กลับหน้าหลัก</string>
+    <string name="wanttosearch">คุณต้องการค้นหาอะไร ?</string>
+
+    <string name="gomainpage">กลับหน้าหลัก</string>
+
+    <string name="notification_input_search_title">กรุณาเลือกรูปแบบการค้นหา</string>
+    <string name="notification_input_search_message">คุณยังไม่ได้เลือกรูปแบบการค้นหา</string>
+
+    <string name="noinput_title">โปรดกรอกข้อมูลการค้นหา</string>
+    <string name="noinput_message">กรอกข้อมูลที่คุณต้องการค้นหา</string>
+
+    <string name="inputtext_title">โปรดใส่ข้อความที่ต้องการค้นหา</string>
+    <string name="inputtext_message">คุณไม่ได้ใส่ข้อความเพื่อค้นหา</string>
+    <string name="backtosearchpage">กลับหน้าค้นหา</string>
+    <string name="student_represent">นักศึกษา (Student)</string>
+
+    <string name="firstname_represent">ชื่อ (Firstname)</string>
+    <string name="lastname_represent">นามสกุล (Lastname)</string>
+    <string name="email_represent">อีเมล (Email)</string>
+    <string name="faculty_represent">คณะที่ศึกษา (Faculty)</string>
+    <string name="username_represent">ชื่อผู้ใช้ (Username)</string>
+    <string name="password_represent">รหัสผ่าน (Password)</string>
+
+    <string name="link_google_street_view"><a href="https://play.google.com/store/apps/details?id=com.google.android.street"></a></string>
+
+    <string name="updatestyle_dorm">เลือกรูปแบบหอพัก</string>
+
+</resources>
